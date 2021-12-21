@@ -1,0 +1,188 @@
+
+<html>
+    <head>
+        <style>
+           html, body{
+                margin:0;
+                height: 100%;
+              
+               
+            }
+           
+            
+            #nav{
+                display:flex;
+                justify-content:flex-end ;
+                margin-top:15px;
+            }
+            #nav a{
+                margin-right:20px;
+            }
+            #nav a.topimage{
+                width:20px;
+                height:20px;
+                background: red;
+                border-radius:50%;
+            }
+            #middle{
+                flex-grow:1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+            #logo{
+                text-align: center;
+            }
+            #searchbarcontainer{
+                text-align:center ;
+                margin-top: 20px;
+                position:relative;
+                
+            }
+            #searchbar{
+                padding-top: 10px;
+                padding-bottom:10px ;
+                outline:0;
+                width:600px;
+                border-radius: 15px;
+                border: 1px solid rgb(180, 178, 178);
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            .button:hover{
+                box-shadow: 0 0 2px 1px rgb(163, 161, 161);
+                border:2px solid rgb(100, 97, 97);
+            }
+            #searchbar:hover{
+                box-shadow: 0 0 10px 2px rgb(177, 175, 175);
+            }
+
+
+            #buttons{
+                display:flex ;
+                justify-content:center ;
+                margin-top:20px ;
+            }
+            .button{
+                margin-left: 10px;
+                margin-right: 10px;
+                padding:5px 10px;
+                border-radius: 3px;
+                cursor:pointer;
+                background: rgb(219, 216, 216);
+                border:2px solid transparent;
+            }
+            #link{
+                margin-top: 20px;
+                text-align:center ;
+            
+
+
+
+            }
+            body{
+                display: flex;
+                flex-direction: column;
+            }
+            #footercontent {
+                background: rgb(187, 185, 185);
+                border-top: 1px solid black;
+               
+
+
+
+            }
+            .footer{
+                display: flex;
+                justify-content:center;
+                padding:2px;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            #search, #voice{
+                position: absolute;
+                top:0;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items:center ;
+               
+            }
+            #search{
+                left:10px;
+
+            }
+            #voice{
+                right:10px;
+            }
+            #tittle{
+                text-align: center;
+            }
+        </style>
+        <tittle id="tittleGr">Google Clone</tittle>
+        </head><body>
+    
+    
+        <div id="nav">
+            <a class="toplink">Gmail</a>
+            <a class="toplink">Image</a>
+            <a class="topimage"></a> 
+        </div>
+
+        <div id="middle">
+    <div id="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png">
+    </div>        
+        
+
+        <div id="searchbarcontainer">
+            <div id="search">X</div>
+        <input id="searchbar" type="text">
+        <div id="voice">Y</div>
+        </div>
+
+        <div id="buttons">
+
+            <div class="button">
+                Google Search
+            </div>
+            
+            <div class="button">
+                I'm Feeling Lucky
+            </div>
+        </div>
+        <div id="link">
+            Google is offered in <a href="file:///C:/Users/abc/OneDrive/Documents/google%20home%20page%201.html">X</a>
+            <a href="file:///C:/Users/abc/OneDrive/Documents/google%20home%20page%201.html">Y</a>
+
+        </div>
+
+        </div>
+
+
+      
+        
+            <div id="footercontent">
+                <div class="footer">
+            <a>privacy</a>
+            </div>
+
+            <div class="footer">
+            <a>Business</a>
+            </div>
+
+
+            <div class="footer">
+            <a>Searched Content</a>
+            </div>
+        
+        </div>
+    
+    
+</body></html>
